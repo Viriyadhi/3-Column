@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300&display=swap");
 .sedans-class {
     background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
 }
 
 .suv-class {
@@ -9,6 +10,7 @@
 
 .luxury-class {
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
 }
 
 .container-frame h1 {
@@ -18,6 +20,8 @@
 }
 
 .container-frame p {
+    height: 20%;
+    width: 80%;
     font-family: "Lexend Deca", sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
     font-weight: 400;
@@ -26,7 +30,7 @@
 }
 
 .container-frame {
-    width: 55%;
+    width: 65%;
     margin: auto;
     margin-top: 12rem;
 }
@@ -53,7 +57,7 @@
 }
 
 img {
-    margin: 40px 0 40px 30px;
+    margin: 1.7rem 0 2rem 1.7rem;
 }
 
 @media (max-width: 375px) {
