@@ -52,6 +52,18 @@
     margin: 0 0 2rem 1.65rem !important;
 }
 
+button[type="sedans"] {
+    color: hsl(31, 77%, 52%);
+}
+
+button[type="suv"] {
+    color: hsl(184, 100%, 22%);
+}
+
+button[type="luxury"] {
+    color: hsl(179, 100%, 13%);
+}
+
 .btn:focus {
     box-shadow: none !important;
 }
@@ -60,11 +72,27 @@ img {
     margin: 1.7rem 0 2rem 1.7rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
     .container-frame {
         width: 80%;
+        height: 90%;
     }
     .container-frame p {
         margin: 0 0.95rem 2rem 1.65rem;
+    }
+    .sedans-class {
+        border-radius: 10px 10px 0 0;
+    }
+    .luxury-class {
+        border-radius: 0 0 10px 10px;
+    }
+    .btn {
+        margin: 2rem 0 0 1.65rem !important;
+    }
+    .container-frame h1 {
+        font-family: "Big Shoulders Display", cursive;
+        color: white;
+        margin: 0 0 2rem 1.65rem;
+        font-size: 2rem;
     }
 }
