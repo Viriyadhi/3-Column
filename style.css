@@ -14,21 +14,21 @@
 .container-frame h1 {
     font-family: "Big Shoulders Display", cursive;
     color: white;
-    margin: 0 0 40px 30px;
+    margin: 0 0 2rem 1.65rem;
 }
 
 .container-frame p {
-    font-size: 15;
     font-family: "Lexend Deca", sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
     font-weight: 400;
-    margin: 0 25px 150px 25px;
+    margin: 0 0.95rem 6rem 1.65rem;
     text-align: start;
 }
 
 .container-frame {
     width: 45%;
     margin: auto;
+    margin-top: 12rem;
 }
 
 .attribution {
@@ -40,6 +40,27 @@
     color: hsl(228, 45%, 44%);
 }
 
+.btn {
+    border-radius: 50px !important;
+    padding: 0.65rem 2rem !important;
+    font-weight: 600 !important;
+    font-family: "Lexend Deca", sans-serif !important;
+    margin: 0 0 2rem 1.65rem !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
 img {
     margin: 40px 0 40px 30px;
+}
+
+@media (max-width: 375px) {
+    .container-frame {
+        width: 80%;
+    }
+    .container-frame p {
+        margin: 0 0.95rem 2rem 1.65rem;
+    }
 }
